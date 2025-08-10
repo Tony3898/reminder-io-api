@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@functions/*": [
+        "src/functions/*"
+      ],
+      "@libs/*": [
+        "src/libs/*"
+      ],
+      "@type": [
+        "src/type/index.ts"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ]
+    }
+  }
+}
